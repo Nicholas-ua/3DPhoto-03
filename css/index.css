@@ -1,0 +1,25 @@
+/* table th, table td
+        {
+        padding: 0px;
+        }
+        table img
+        {
+        height: 50%;
+        width: auto;
+        } */
+
+        .products {
+            border: 1px;
+            width: 50%;
+            height: auto;
+            margin: auto;
+            background-color: rgb(245, 164, 66);
+        }
+        
+        img {
+            position: relative;
+            width: 80%;
+            height: auto;
+            border: 2px;
+            margin: auto;
+        }

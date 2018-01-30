@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Shoose-01</title>
+</head>
+<body>
+    <!-- <table border="1" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+        <td>
+        <img src="" id="product1">
+        </td>
+        </tr>
+        </table> -->
+        <div class="products">
+            <img src="" id="product1">
+        </div>
+        
+        <div id="dvImages" style="display: none">
+            <img src="images/pic-01.jpg">
+            <img src="images/pic-02.jpg">
+            <img src="images/pic-03.jpg">
+            <img src="images/pic-04.jpg">
+            <img src="images/pic-05.jpg">
+            <img src="images/pic-06.jpg">
+            <img src="images/pic-07.jpg">
+            <img src="images/pic-08.jpg">
+            <img src="images/pic-09.jpg">
+            <img src="images/pic-10.jpg">
+            <img src="images/pic-11.jpg">
+            <img src="images/pic-12.jpg">
+            <img src="images/pic-13.jpg">
+            <img src="images/pic-14.jpg">
+            <img src="images/pic-15.jpg">
+            <img src="images/pic-16.jpg">
+            <img src="images/pic-17.jpg">
+            <img src="images/pic-18.jpg">
+            <img src="images/pic-19.jpg">
+            <img src="images/pic-20.jpg">
+            <img src="images/pic-21.jpg">
+            <img src="images/pic-22.jpg">
+            <img src="images/pic-23.jpg">
+            <img src="images/pic-24.jpg">
+        </div>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://cdn.rawgit.com/matdumsa/jQuery.threesixty/master/jquery.threesixty.js"></script>
+        <script type="text/javascript">
+        $(function () {
+        //Load the image URLs into an Array.
+        var arr = new Array();
+        $("#dvImages img").each(function () {
+        arr.push($(this).attr("src"));
+        });
+        //Set the first image URL as source for the Product.
+        $("#product1, #product2, #product3").attr("src", arr[0]);
+        //Click mode.
+        $("#product1").threesixty({ images: arr,
+        method: 'click',
+        sensibility: 2
+        });
+        });
+        </script>
+</body>
+</html>
