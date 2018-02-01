@@ -9,7 +9,7 @@ $(function () {
     //Click mode.
     $("#product1").threesixty({ images: arr,
     method: 'mousemove',
-    direction: 'backward',
+    direction: 'forward',
     sensibility: 2
     });
     });
