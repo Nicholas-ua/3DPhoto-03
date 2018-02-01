@@ -9,6 +9,7 @@ $(function () {
     //Click mode.
     $("#product1").threesixty({ images: arr,
     method: 'click',
+    direction: 'forward',
     sensibility: 2
     });
     });
